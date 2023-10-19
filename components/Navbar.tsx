@@ -55,7 +55,7 @@ const Navbar = () => {
         <div
           className={`${
             !isToggled ? 'hidden' : 'flex flex-col'
-          } p-6 bg-black/10 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-50 rounded-lg bg-white`}
+          } p-6 bg-black/10 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-50 rounded-lg bg-white shadow-2xl`}
         >
           <ul className='list-none flex justify-end items-start flex-col gap-4'>
             {NAV_LINKS.map((link) => (
