@@ -111,13 +111,13 @@ const Camp = () => {
             onClick={prevImage}
             className='p-2 text-sm bg-[#fd9f77] text-white rounded-md ml-1'
           >
-            Previous
+            Next
           </button>
           <button
             onClick={nextImage}
             className='p-2 text-sm bg-[#fd9f77] text-white rounded-md ml-1'
           >
-            Next
+            Previous
           </button>
         </div>
       </div>
